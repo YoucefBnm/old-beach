@@ -1,0 +1,27 @@
+.nav {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 25% 1fr 25%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link,
+.sponsor p {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.sponsor {
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
