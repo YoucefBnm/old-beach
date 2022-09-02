@@ -1,0 +1,28 @@
+.cta {
+    padding: 80px 100px;
+    background-color: #F0F8FF;
+    background-image: url('../assets/image\ 2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.cta-col {
+    width: 25%;
+}
+.cta-col .heading {
+    color: var(--color-blue);
+    margin-bottom: 130px;
+}
+.cta-col .paragraph {
+    color: var(--color-blue);
+    margin-bottom: 50px;
+
+}
+.cta-col .btn-bg {
+    background-color: var(--color-blue);
+    color: #ffffff;
+}

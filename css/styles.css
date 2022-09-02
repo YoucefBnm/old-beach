@@ -1,13 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import './_nav.css';
-@import './_hero.css';
-@import './_footer.css';
+@import './_header.css';
+@import './_intro.css';
+@import './_showcase.css';
+@import './_partners.css';
+@import './_quote.css';
+@import './_cta.css';
+@import './_blog.css';
+@import './_contact.css';
 
 :root {
-    --color-blue: #b7ede7;
-
+    --color-black-1: rgb(57, 55, 55);
+    --color-black-2: #70748C;
+    --color-yellow: #FFEA31;
+    --color-blue: #4E66FF;
 }
 
+/* ======== GENERAL SETTINGS ============ */
 *,
 *::before,
 *::after {
@@ -17,8 +26,10 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    color: #333333;
+    box-sizing: inherit;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
 }
 a {
     text-decoration: none;
@@ -28,19 +39,57 @@ li {
     list-style: none;
 }
 
-nav,
-.top,
-section,
-footer {
-    padding-left: 40px;
-    padding-right: 40px;
-}
-.top {
-    padding: 40px;
+nav {
+    padding: 50px 100px;
 }
 
-footer {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    border-bottom: 1px solid #ccc;
+.heading {
+    font-weight: 400;
+    color: var(--color-black-1);
+    margin: 0;
+}
+.heading-main {
+    font-size: 111px;
+    line-height: 115px;
+    letter-spacing: 6.96px;
+}
+.heading-sub {
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 1.32px;
+}
+.heading-social {
+    font-size: 96px;
+    line-height: 101px;
+    letter-spacing: 3.84px;
+}
+.heading-contact {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 1.32px;
+}
+
+.paragraph,
+.nav-link {
+    font-size: 15px;
+    line-height: 24px;
+}
+.paragraph {
+    color: var(--color-black-2);
+}
+.nav-link {
+    color: rgba(57, 55, 55, .4);
+}
+
+.btn-nav {
+    padding: 15px 10px;
+    border: 1px solid rgba(57, 55, 55, 0.4);
+    border-radius: 4px;
+
+}
+.btn-bg {
+    background-color: var(--color-yellow);
+    padding: 20px 40px;   
+    border-radius: 4px;
 }

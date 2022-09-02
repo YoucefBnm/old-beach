@@ -1,0 +1,24 @@
+.quote {
+    padding: 190px 200px 215px 200px;
+    display: flex;
+    gap: 75px;
+    align-items: flex-end;
+}
+.quote .paragraph:first-child {
+    font-size: 32px;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: 0.32px;
+    color: #4E66FF;
+}
+
+.quote-card {
+    display: flex;
+    gap: 20px;
+    
+}
+.quote-card-text .heading {
+    font-size: 18px;
+    line-height: 28px;
+    
+}
