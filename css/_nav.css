@@ -5,22 +5,10 @@
     position: relative;
     z-index: 99;
 }
-.nav-logo {
-
-}
-.nav-logo img {
-
-}
 
 .nav-navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 45px;
-}
-.nav-item {
-
-}
-.nav-link {
-
 }

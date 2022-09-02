@@ -1,37 +1,75 @@
 .contact {
-
+    padding: 110px 100px;
+    background-color: #DDEBFF;
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: center;
 }
 .contact-col {
+    width: calc(50% - 40px);
 
 }
 .col-text {
-
+    background-image: url('../assets/contact-frame.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 50px 60px;
+    
 }
 .col-text .heading {
-
+    margin-bottom: 300px; 
 }
 .col-text .paragraph {
 
 }
 
 .col-form {
-
+    
 }
-
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
 .contact-form {
 
 }
-
+.form-input-wrap {
+    display: flex;
+    gap: 20px;
+}
 .form-input {
-
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 15px 30px;
 }
 .form-input-full {
 
 }
 .form-input-half {
-
+    width: calc(50% - 10px);
 }
 
 .form-btn {
-    
+    margin-top: 50px;
+    padding: 20px 30px;
+    background: #393737;
+    border-radius: 4px;
+    font-size: 24px;
+    border: 2px solid transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: border background-color color .4s ease-in-out;
+}
+.form-btn:hover {
+    background-color: transparent;
+    border-color: #393737;
+    color: #393737;
 }

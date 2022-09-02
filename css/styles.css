@@ -80,13 +80,21 @@ nav {
 }
 .nav-link {
     color: rgba(57, 55, 55, .4);
+    transition: color .3s ease;
+}
+.nav-link:hover {
+    color: var(--color-black-1);
 }
 
 .btn-nav {
     padding: 15px 10px;
     border: 1px solid rgba(57, 55, 55, 0.4);
     border-radius: 4px;
-
+    transition: background-color color .3s ease;
+}
+.btn-nav:hover {
+    background-color: var(--color-black-1);
+    color: #ffffff;
 }
 .btn-bg {
     background-color: var(--color-yellow);

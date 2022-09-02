@@ -21,7 +21,21 @@
     border: 1px solid #70748C;
     border-radius: 4px;
     color: #5D6073;
+    transition: color border-color background-color .4s ease-in-out;
 }
+.intro-text .btn span {
+    transition: margin-left .2s ease-in-out;
+}
+.intro-text .btn:hover {
+    color: var(--color-black-1);
+    border-color: var(--color-black-1);
+    background-color: #FFFFFF;
+}
+.intro-text .btn:hover span {
+    transform: translateX(-5px);
+    margin-left: 5px;
+}
+
 .intro-text .btn span {
     margin-left: 2px;
 }

@@ -58,5 +58,9 @@ header {
     border-radius: 100px;
     padding: 10px 20px;
     cursor: pointer;
-    
+    transition: background-color color .4s ease;
+}
+.cookies .btn-cookies:hover {
+    background-color: var(--color-blue);
+    color: #ffffff;
 }

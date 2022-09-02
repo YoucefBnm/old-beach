@@ -232,12 +232,15 @@
 
             <div class="contact-col col-form">
                 <form action="" class="contact-form">
-                    <input name="name" class="form-input form-input-full" placeholder="name" type="text">
-                    <input name="email" class="form-input form-input-full" placeholder="email" type="email">
-                    <input name="company" class="form-input form-input-half" placeholder="company" type="text">
-                    <input name="position" class="form-input form-input-half" placeholder="position" type="text">
-                    <textarea name="message" id="message" class="form-input form-textarea" placeholder="message"></textarea>
-
+                    <div class="form-group">
+                        <input name="name" class="form-input form-input-full" placeholder="name" type="text">
+                        <input name="email" class="form-input form-input-full" placeholder="email" type="email">
+                        <div class="form-input-wrap">
+                            <input name="company" class="form-input form-input-half" placeholder="company" type="text">
+                            <input name="position" class="form-input form-input-half" placeholder="position" type="text">
+                        </div>
+                        <textarea name="message" id="message" class="form-input form-textarea" placeholder="message"></textarea>
+                    </div>
                     <button role="button" type="submit" class="btn form-btn">Get in touch</button>
                 </form>
             </div>

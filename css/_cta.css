@@ -25,4 +25,11 @@
 .cta-col .btn-bg {
     background-color: var(--color-blue);
     color: #ffffff;
+    border: 2px solid transparent;
+    transform: border-color background-color color .4s ease-in-out;
+}
+.cta-col .btn-bg:hover {
+    border-color: var(--color-blue);
+    background-color: transparent;
+    color: var(--color-black-1);
 }
